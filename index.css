@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(180deg, #fddb92 0%, #d1fdff 100%);
+}
+section {
+  max-width: 600px;
+  margin: 20px auto;
+  color: #098661;
+}
+h1 {
+  color: #098661;
+  text-align: right;
+  font-family: raleway;
+}
+h2 {
+  color: #098661;
+  text-align: left;
+  margin: 20px 10px;
+  font-family: raleway;
+}
+button {
+  float: right;
+  margin: 5px 10px;
+  background-color: #d1fffd;
+  border-radius: 50px 50px 50px 50px;
+  color: #098661;
+  border-color: #fdcb73;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #098661;
+  color: #fdcb73;
+}
+.convertFahrenheit {
+  border-radius: 5px;
+  border-color: #098661;
+  background-color: #d1fffd;
+  padding: 5px;
+  font-size: 1rem;
+  font-family: raleway;
+  color: #098661;
+  box-shadow: 2px 2px #d1fffd;
+  transition: all 185ms ease-in-out;
+}
+.dateTime {
+  text-align: right;
+  font-family: monospace;
+  color: #098661;
+}
+
+.feelsLike {
+  text-align: right;
+  font-family: monospace;
+  color: #098661;
+}
+.searchBar {
+  margin-top: 90px;
+  color: #098661;
+}
+
+.card-body {
+  color: #098661;
+  font-family: monospace;
+}
+footer {
+  font-family: monospace;
+  position: fixed;
+  bottom: 0px;
+  color: #098661;
+}
